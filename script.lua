@@ -11,10 +11,10 @@ local RootPart = Character:WaitForChild("HumanoidRootPart")
 local Mouse = LocalPlayer:GetMouse()
 
 local settings = {
-    speed = 1; --how fast we walk
-    tolerance = 1; --how close we need to be to the target
-    stop = false; --if we should stop walking
-    jumpOnObstacle = true; --if we should jump over obstacles
+    speed = 1; 
+    tolerance = 1; 
+    stop = false; 
+    jumpOnObstacle = true; 
 } 
 
 local targets = {
